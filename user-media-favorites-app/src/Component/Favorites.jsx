@@ -11,12 +11,12 @@ class Favorites extends Component {
         let albumsArray=[]
         console.log(moviesArray)
         return (
-            moviesArray.push(favMovie1, favMovie2);
+            moviesArray.push(favMovie1, favMovie2)
             albumsArray.push(Album1, Album2);
             < div >
             <h1>This is a list of your favorite movies and albums</h1>
-            <Favorites favMovie1={user_input} />
-            <Favorites favMovie2={user_input2} />
+            {/* <Favorites favMovie1={user_input} />
+            <Favorites favMovie2={user_input2} /> */}
             <Albums Album1= {user_album1}/>
             <Albums Album2 ={user_album2}/>
             </div >
